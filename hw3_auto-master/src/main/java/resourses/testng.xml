@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Poker Suite" verbose="1" >
+
+    <test name="Login Tests">
+        <classes>
+            <class name="Pages.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="CRUDUser Tests">
+        <classes>
+            <class name="Pages.CRUDUserTests"/>
+        </classes>
+    </test>
+
+</suite>
